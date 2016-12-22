@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 const uint16_t PROGMEM fn_actions[] = {
-    [0] = ACTION_LAYER_MOMENTARY(OVR),
+    [0] = ACTION_LAYER_TAP_KEY(OVR, KC_NUMLOCK),
     [1] = ACTION_LAYER_SET(HDN, ON_PRESS),
     [2] = ACTION_LAYER_SET(ARW, ON_PRESS),
     [3] = ACTION_LAYER_SET(DEF, ON_PRESS),
